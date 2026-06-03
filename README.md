@@ -10,6 +10,8 @@ usermgr add pdr Senha@2026 admin
 
 python3 Console.py --proto dhip --rport 8080 --logon loopback --rhost 127.0.0.1
 
+./target/release/dh-p2p 3K04BD5PAG00028 -p 127.0.0.1:8080:80 --relay
+
 .
 .
 .
