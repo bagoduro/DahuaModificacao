@@ -21,3 +21,14 @@ Modo Massa: python3 dh.py -f ips.txt -p 80 -u admin -P Senha@2026
 Modo Manual: python3 dh.py -i 192.168.0.15 -p 37777
 Modo Interativo: python3 dh.py
 Pega uma lista de ips do arquivo, e tenta injetar: python3 dh.py -f ips.txt -p 80 -u usr ou pdr -P Senha@2026
+
+
+.
+.
+.
+.
+.
+.
+
+
+criando tunel com dh-p2p, e rodando python3 dh.py -i 127.0.0.1 -p 8080 (vai mais rápido) 
