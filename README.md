@@ -47,7 +47,7 @@ python3 dh.py -i 127.0.0.1 -p 8080
 
 comando dvr2: 
 
-python3 dh.py -f ips37777.txt -u pdr -P Senha@2026 -t 250
+python3 dhv2.py -f ips37777.txt -u pdr -P Senha@2026 -t 250
 
 sudo masscan -p 37777 179.126.0.0-179.126.255.254 --rate 5000 -oL /home/ubuntu/DahuaConsole/ipsformatados.txt -e ens5
 
