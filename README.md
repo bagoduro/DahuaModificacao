@@ -33,4 +33,6 @@ Pega uma lista de ips do arquivo, e tenta injetar: python3 dh.py -f ips.txt -p 8
 .
 
 
-criando tunel com dh-p2p, e rodando python3 dh.py -i 127.0.0.1 -p 8080 (vai mais rápido) 
+criando tunel com dh-p2p, e rodando (vai mais rápido)  
+
+python3 dh.py -i 127.0.0.1 -p 8080
