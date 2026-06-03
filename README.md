@@ -53,4 +53,6 @@ sudo masscan -p 37777 179.126.0.0-179.126.255.254 --rate 5000 -oL /home/ubuntu/D
 
 grep -E 'tcp (37776|37777|37778)' /home/ubuntu/DahuaConsole/ipsformatados.txt | awk '{print $4}' > /home/ubuntu/DahuaConsole/ips37777.txt
 
+scp -r -i "C:\Users\LENOVO\Desktop\Ubuntu\chave-projeto.pem" ubuntu@3.82.175.239:/home/ubuntu/DahuaConsole/snapshots_20260603_151938 C:\Users\LENOVO\Desktop\
+
 
