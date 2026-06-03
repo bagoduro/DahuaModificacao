@@ -49,7 +49,8 @@ comando dvr2:
 
 python3 dh.py -f ips37777.txt -u pdr -P Senha@2026 -t 250
 
-sudo masscan -p 37777 125.24.0.0-125.24.255.254 --rate 5000 -oL /home/ubuntu/DahuaConsole/ips37777.txt -e ens5
+sudo masscan -p 37777 179.126.0.0-179.126.255.254 --rate 5000 -oL /home/ubuntu/DahuaConsole/ipsformatados.txt -e ens5
 
-grep -E 'tcp (37776|37777|37778)' ips37777.txt | awk '{print $4}'
+grep -E 'tcp (37776|37777|37778)' /home/ubuntu/DahuaConsole/ipsformatados.txt | awk '{print $4}' > /home/ubuntu/DahuaConsole/ips37777.txt
+
 
