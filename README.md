@@ -45,6 +45,11 @@ python3 dh.py -i 127.0.0.1 -p 8080
 .
 .
 .
+
+Comando blade:
+
+python3 blade.py --tunnel -s seriais.txt
+
 .
 .
 .
