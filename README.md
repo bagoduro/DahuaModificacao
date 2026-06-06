@@ -10,6 +10,8 @@ mhdx country:"BR" product:"Intelbras MHDX 5116"
 
 MHDX 3008 country:"BR"
 
+mhdx country:"BR" product:"Intelbras MHDX 1116" city:"São Paulo"
+
 MHDX 1016
 
 python3 Console.py --proto dhip --rport 80 --logon loopback --rhost 101.190.9.204
