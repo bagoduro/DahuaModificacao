@@ -82,4 +82,6 @@ https://hackertarget.com/find-dns-host-records/
 
 ddns-intelbras.com.br
 
+python3 versao.py -f /home/ubuntu/DahuaConsole/ips37777.txt -t 300 -o resultado.csv
+
 python3 versao.py -f /home/ubuntu/ddns-finder/ips37777.txt -t 300 -o resultado.csv
