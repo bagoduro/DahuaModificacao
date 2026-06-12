@@ -89,6 +89,9 @@ ddns-intelbras.com.br
 python3 dh_teste.py -f ips_8080.txt -p 8080 -u pdr -P Senha@2026 -t 250
 
 python3 dh_teste.py -f ips37777.txt -p 8080 -u pdr -P Senha@2026 -t 250
+=====
+
+python3 dh_teste.py -f ips37777.txt -p 8080 -t 250
 
 =====
 
