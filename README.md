@@ -78,7 +78,7 @@ python3 dhv2.py -f ips_8080.txt -p 8080 -u pdr -P Senha@2026 -t 250
 
 sudo masscan -p 8080 177.30.0.0-177.40.255.255 --rate 5000 -oL /home/ubuntu/DahuaConsole/ipsformatados.txt -e ens5
 
-grep 'open tcp 8080' /home/ubuntu/DahuaConsole/ipsformatados.txt | awk '{print $4}' > /home/ubuntu/DahuaConsole/ips_8080.txt
+grep 'open tcp 8080' /home/ubuntu/DahuaConsole/ipsformatados.txt | awk '{print $4}' > /home/ubuntu/DahuaConsole/ips37777.txt
 
 https://hackertarget.com/find-dns-host-records/
 
